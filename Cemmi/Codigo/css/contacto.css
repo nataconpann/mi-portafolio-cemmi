@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    height: 100vh;
+    background-color:#ffff;
+}
+
+.banner1{
+    width: 100%;
+    height: 278px;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: -12px;
+}
+
+.banner1 img{
+    width: 100%;
+    height: 278px;
+    max-width: 100%;
+    opacity: 0.8;
+}
+
+
+.titulo1 h1{
+    position: absolute;
+    font-size: 55px;
+    font-weight: bold;
+    color: #ffff;
+    z-index: 2;
+    text-align: center;
+    margin-top: -220px;
+    margin-left: 200px;
+    width: 800;
+
+}
+
+.titulo1 p{
+    position: absolute;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffff;
+    z-index: 2;
+    text-align: center;
+    margin-top: -75px;
+    margin-left: 45%;
+}
+
+.espacio{
+    height: 27px;
+    width: 100%;
+    max-width: 100%;
+
+}
+
+section #banner2{
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+
+#banner2 img{
+    margin-top: 31px;
+    max-width: 100%;
+    height: 787px;
+    width: 100%;
+    border-radius: 10px;
+    -webkit-box-shadow: 3px 3px 28px 2px rgba(16,16,16,0.75);
+    -moz-box-shadow: 3px 3px 28px 2px rgba(16,16,16,0.75);
+    box-shadow: 3px 3px 28px 2px rgba(16,16,16,0.75);
+}
+
+#banner2 h1{
+    width: 807px;
+    height: 216px;
+    position: absolute;
+    left: 33%;
+    transform: translate(-50%, -50%);
+    font-size: 55px;
+    font-weight: bold;
+    color: #ffff;
+    z-index: 2;
+    margin-top: -610px;
+    text-align: left;
+}
+
+#banner2 p{
+    width: 724px;
+    height: 121px;
+    position: absolute;
+    left: 27.5%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    font-weight: 600;
+    color: #ffff;
+    z-index: 2;
+    margin-top: -440px;
+    text-align: center;
+}
+
+
+#banner2 .boton1 button{
+    background-color: #1bd741;
+    color:#ffff;
+    padding: 0.5rem 5rem ;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: scale 0.2 ease;
+    transform: translate(-50%, -50%);
+}
+#banner2 .boton2 button{
+    position: relative;
+    background-color: #41a4d7;
+    color:#ffff;
+    padding: 0.5rem 5rem ;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: scale 0.2 ease;
+    top: -260px;
+    margin-left: 14.5%; 
+    transform: translate(-50%, -50%);
+}
+
+#banner2 .boton1{
+    position: absolute;
+    margin-top: -330px;
+    margin-left: 14.5%;
+}
+
+.text2{
+    width: 80px;
+    height: 121px;
+    position:absolute;
+    align-items: center;
+    justify-content: right;
+    max-width: 100%;
+    margin-top: 250px;
+    left: 16%;
+}
+
+.text2 p{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    font-weight: 600;
+    color: #ffff;
+    z-index: 2;
+    text-align: right;
+}
+
+.imgtele{
+    background-color: #29c3b0;
+    width: 34%;
+    color: #fafafa;
+    padding: 33px;
+    align-items: center;
+    justify-content: center;
+    min-height: 250px;
+    border-radius: 22px;
+    position: absolute;
+    left: 38%;
+    top: 72%;
+    overflow: hidden;
+    display: none;
+    z-index: 2;
+
+}
+
+.imgtele img{
+    width: 100%;
+    height: 500px;
+}
+
+
+#cerrar{
+    height: 20px;
+    position: absolute;
+    left: 90%;
+    margin-top: -10px;
+
+
+
+}
+
+#cerrar i{
+    cursor: pointer;
+    font-size: 30px;
+    color: #ffff;
+}
+
+
+#contacto{ 
+    width: 100%;
+    height: 577px;
+    max-width: 100%;
+    background-color:#101010 ;
+}
+
+.textf{
+    width: 398px;
+    height: 220px;
+}
+
+.textf h1{
+    position: absolute;
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffff;
+    margin-top: 105px;
+    margin-top: 125px;
+    margin-left: 70px;
+    text-align: center;
+}
+.textf p{
+    width: 460px;
+    height: 250px;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffff;
+    margin-top: 281px;
+    margin-left: 120px;
+    text-align: center;
+}
+
+
+.formulario{
+    width: 591px;
+    height: 388px;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -115px;
+    margin-left: 650px;
+    border-radius: 20px;
+    border: 1px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width:509px;
+    height: 69px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: -140px;
+}
+
+.form input{
+    padding: 17px 14px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+
+.btn{
+    background-color: #df8e4f;
+    color:#ffff;
+    padding: 0.5rem 4rem ;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: scale 0.2 ease;
+}
+.btn:hover{
+    scale: 1.05;
+}
+/* responsive del formulario */
+@media (max-width:991px) {
+    body{
+        padding: 30px;
+    }
+    .formulario{
+        width: 100%;
+    }
+    .form{
+        width: 100%;
+    }
+}
+
+footer{
+    width: 100%;
+    height: 217px;
+    margin:auto;
+    display: flex;
+    background-color: #030303;
+    justify-content: space-between;
+    position: relative;
+    padding: 0 2rem;
+}
+
+.logof{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.logof img{
+    width: 272px;
+    height: 117px;
+}
+
+.footerlink{
+    display: flex;
+    gap: 2rem;
+    margin-top: 78px;
+    margin-right: 590px;
+    
+}
+
+footer li{
+    list-style: none;
+}
+
+footer a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 600;
+}
+footer a:hover{
+    color:#29c3b0;
+}
+
+.ftlf{
+    width: 197px;
+    height: 167px;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 990px;
+    margin-top: 40px;
+}
+
+.ftlf p{
+    color: #101010;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 600;
+}

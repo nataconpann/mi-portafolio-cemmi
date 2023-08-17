@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    height: 100vh;
+    background-color:#ffff;
+}
+
+.banner1{
+    width: 100%;
+    height: 278px;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: -12px;
+}
+
+.banner1 img{
+    width: 100%;
+    height: 278px;
+    max-width: 100%;
+    opacity: 0.8;
+}
+
+
+.titulo1 h1{
+    position: absolute;
+    font-size: 55px;
+    font-weight: bold;
+    color: #ffff;
+    z-index: 2;
+    text-align: center;
+    margin-top: -220px;
+    margin-left: 200px;
+    width: 800;
+
+}
+
+.titulo1 p{
+    position: absolute;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffff;
+    z-index: 2;
+    text-align: center;
+    margin-top: -75px;
+    margin-left: 45%;
+}
+
+.espacio{
+    height: 27px;
+    width: 100%;
+    max-width: 100%;
+}
+
+section .banner2{
+    margin-top: 57px;
+    background-image: url(../../Imagenes/Imagenes_de_stock/4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-clip: border-box;
+    height: 820px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    -webkit-box-shadow: 3px 3px 28px 2px rgba(16,16,16,0.75);
+    -moz-box-shadow: 3px 3px 28px 2px rgba(16,16,16,0.75);
+    box-shadow: 3px 3px 28px 2px rgba(16,16,16,0.75);
+}
+
+.banner2 img{
+    height: 191px;
+    width: 450px;
+    margin-bottom: 1rem;
+    max-width: 100%;
+    margin-top: -50px;
+}
+ 
+
+.banner2 p{
+     color: #fff;
+     font-size: 30px;
+     font-weight: 600;
+     padding: 25px;
+     line-height: 1.5;
+}
+
+
+section #experiencia{
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    margin-top: -30px;
+}
+
+
+#experiencia img{
+    margin-top: -45px;
+    max-width: 100%;
+    height: 787px;
+    width: 100%;
+    border-radius: 10px;
+    -webkit-box-shadow: 3px 3px 28px 2px rgba(16,16,16,0.75);
+    -moz-box-shadow: 3px 3px 28px 2px rgba(16,16,16,0.75);
+    box-shadow: 3px 3px 28px 2px rgba(16,16,16,0.75);
+}
+
+#experiencia h1{
+    width: 100%;
+    position: absolute;
+    left: 43%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffff;
+    z-index: 2;
+    margin-top: -650px;
+    text-align: center;
+}
+
+#experiencia p{
+    width: 1105px;
+    position: absolute;
+    left: 44.5%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-weight: 600;
+    color: #ffff;
+    z-index: 2;
+    margin-top: -420px;
+}
+
+
+section #exito{
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    margin-top: -30px;
+}
+
+
+#exito img{
+    margin-top: -45px;
+    max-width: 100%;
+    height: 787px;
+    width: 100%;
+    border-radius: 10px;
+    -webkit-box-shadow: 3px 3px 28px 2px rgba(16,16,16,0.75);
+    -moz-box-shadow: 3px 3px 28px 2px rgba(16,16,16,0.75);
+    box-shadow: 3px 3px 28px 2px rgba(16,16,16,0.75);
+}
+
+#exito h1{
+    width: 1000px;
+    position: absolute;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffff;
+    z-index: 2;
+    margin-top: -650px;
+    text-align:center;
+}
+
+#exito p{
+    width: 1105px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-weight: 600;
+    color: #ffff;
+    z-index: 2;
+    margin-top: -420px;
+    text-align: right;
+}
+
+
+section #calidad{
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    margin-top: -30px;
+}
+
+
+#calidad img{
+    margin-top: -45px;
+    max-width: 100%;
+    height: 787px;
+    width: 100%;
+    border-radius: 10px;
+    -webkit-box-shadow: 3px 3px 28px 2px rgba(16,16,16,0.75);
+    -moz-box-shadow: 3px 3px 28px 2px rgba(16,16,16,0.75);
+    box-shadow: 3px 3px 28px 2px rgba(16,16,16,0.75);
+}
+
+#calidad h1{
+    width: 100%;
+    position: absolute;
+    left: 28%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffff;
+    z-index: 2;
+    margin-top: -650px;
+    text-align: center;
+}
+
+#calidad p{
+    width: 1105px;
+    position: absolute;
+    left: 44.5%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-weight: 600;
+    color: #ffff;
+    z-index: 2;
+    margin-top: -440px;
+}
+
+#calidad .boton1 button{
+    background-color: #29c3b0;
+    color:#ffff;
+    padding: 0.5rem 3rem ;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: scale 0.2 ease;
+    transform: translate(-50%, -50%);
+}
+#calidad .boton2 button{
+    position: relative;
+    background-color: #df8e4f;
+    color:#ffff;
+    padding: 0.5rem 6rem ;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: scale 0.2 ease;
+    top: -180px;
+    margin-left: 13.5%; 
+    transform: translate(-50%, -50%);
+}
+
+#calidad .boton1{
+    position: absolute;
+    margin-top: -250px;
+    margin-left: 13.5%;
+}
+
+
+
+button:hover{
+    scale: 1.05;
+}
+
+
+footer{
+    width: 100%;
+    height: 217px;
+    margin:auto;
+    display: flex;
+    background-color: #030303;
+    justify-content: space-between;
+    position: relative;
+    padding: 0 2rem;
+}
+
+.logof{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.logof img{
+    width: 272px;
+    height: 117px;
+}
+
+.footerlink{
+    display: flex;
+    gap: 2rem;
+    margin-top: 78px;
+    margin-right: 590px;
+    
+}
+
+footer li{
+    list-style: none;
+}
+
+footer a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 600;
+}
+footer a:hover{
+    color:#29c3b0;
+}
+
+.ftlf{
+    width: 197px;
+    height: 167px;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 990px;
+    margin-top: 40px;
+}
+
+.ftlf p{
+    color: #101010;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 600;
+}

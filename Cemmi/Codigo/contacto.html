@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CEMMI C.A</title>
+        <link rel="icon" type="image/png" href="../Imagenes/Logos/logo de encabezado y imagenes.png" >
+        <link rel="stylesheet" href="../Codigo/css/contacto.css">
+        <link rel="stylesheet" href="../Codigo/css/menu.css">
+        <link rel="stylesheet" href="../Codigo/css/gotop.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <header>
+            <div class="navbar">
+                <div class="logo"><a href="../index.html"><img src="../Imagenes/Logos/logo de encabezado y imagenes.png" alt="logomenu"></a></div>
+                <ul class="links">
+                    <li><a href="./productos.php">Productos</a></li>
+                    <li><a href="./nosotros.html">Nosotros</a></li>
+                    <li><a href="./contacto.html">Contactos</a></li>
+                </ul>
+                <a href="./contacto.html" class="action_btn">Ordenar</a>
+                <div class="toogle_btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+
+            <div class="dropdown_menu ">
+                <li><a href="./productos.php">Productos</a></li>
+                <li><a href="./nosotros.html">Nosotros</a></li>
+                <li><a href="./contacto.html">Contactos</a></li>
+                <li><a href="./productos.php" class="action_btn">Ordenar</a></li>
+            </div>
+        </header>
+
+        <main>
+            <section class="banner1">
+                <img src="../Imagenes/Imagenes_de_stock/pexels-skitterphoto-633850.jpg" alt="">
+                <div class="titulo1">
+                    <h1>
+                        Soluciones industriales confiables
+                        <br>
+                        y de calidad
+                    </h1>
+                    <p>
+                        Cemmi-C.A LLC ©2023
+                    </p>
+                </div>
+            </section>
+        </main>
+
+        <div class="espacio"></div>
+
+        <section id="banner2">
+            <img src="../Imagenes/Imagenes_de_stock/3.jpg" alt="">
+            <h1>
+                Todo listo! si te interesa 
+                <br>
+                ordenar algunos de 
+                <br>
+                nuestros articulos en stock 
+            </h1>
+            <p>
+                podras hacerlo facilmente via 
+                <br>
+                whatsapp o Telegram aqui!
+            </p>
+            <a href="http://api.whatsapp.com/send?phone=  (colocar el numero de la empresa)" class="boton1"> <button>whatsapp</button></a>
+            <a href="javascript:abrir()" class="boton2"> <button id="tele">Telegram</button></a>
+
+            <div class="imgtele" id="vent">
+                <div id="cerrar"> 
+                    <a href="javascript:cerrar()">
+                    <i class="fa-solid fa-x"></i>
+                    </a>
+                </div>
+                <img src="../Imagenes/Imagen de WhatsApp 2023-06-23 a las 23.04.28.jpg" alt="">
+            </div>
+
+            <div class="text2">
+                <p>
+                    +58 424-289-0941
+                    <br>
+                    +58 212-143-3235
+                </p>
+            </div>
+        </section>
+
+        <div class="espacio"></div>
+
+        <section id="contacto">
+            <div class="textf">
+                <h1> Si prefieres podemos
+                    <br>
+                    contactarte!</h1>
+                <p>
+                Por favor, completa el siguiente formulario con tus datos y requerimientos, y nos pondremos en contacto contigo lo antes posible. 
+                <br><br>
+                ¡Esperamos poder colaborar contigo y contribuir al éxito de tu negocio!</p>
+            </div>
+            <div class="formulario">
+
+                <form class="form" action="https://formspree.io/f/xpzeveao" method="POST">
+                    <input type="text" name="name" id="name" value="Tu Nombre">
+                    <input type="tel" name="tlf" id="telf" value="Numero de Telefono">
+                    <input class="btn" type="submit" value="Enviar">
+                </form>
+            </div>
+        </section>
+
+        <div class="go-top-container">
+            <div class="go-top-button">
+                <i class="fa-solid fa-arrow-up"></i>
+            </div>
+        </div>
+
+
+        <script src="../Codigo/js/menu.js"></script>
+        <script src="../Codigo/js/gotop.js"></script>
+        <script src="../Codigo/js/abrir.js"></script>
+
+
+        <footer>
+            <div class="logof">
+                <img src="../Imagenes/Logos/Logo de pie de pagina editado.png" alt="">
+            </div>
+            <ul class="footerlink">
+                <li><a href="./productos.php">Productos</a></li>
+                <li><a href="./nosotros.html">Nosotros</a></li>
+                <li><a href="./contacto.html">Contactos</a></li>
+            </ul>
+            <div class="ftlf">
+                <p>Telefonos:
+                    <br><br>
+                    +58 424-289-0941
+                    <br>
+                    +58 212-143-3235
+                </p>
+            </div>
+        </footer>
+
+
+    </body>
