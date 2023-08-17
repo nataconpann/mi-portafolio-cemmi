@@ -11,9 +11,7 @@ Para el Website de la empresa CEMMI
 
 - [@nataconpann](https://www.github.com/nataconpann)
 
-## Ver ejemplo en vivo
 
-- [https://nataconpann.github.io/mi-portafolio-Brilantico/](https://nataconpann.github.io/mi-portafolio-Brilantico/)
 
 ## Instalasion 
 -Se debe instalar el archivo sql en un sistema de gestión de bases de datos MySQL con un servidor web Apache como Xammp. 
